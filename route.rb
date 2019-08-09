@@ -7,7 +7,7 @@ class Route
   end
 
   def add_station(station)
-    route_list.insert(route_list.size - 1, station)
+    route_list.push(station)
   end
 
   def remove_station(station)
